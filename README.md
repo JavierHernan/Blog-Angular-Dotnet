@@ -21,3 +21,40 @@ POST api/Photo - upload photo (needs auth)
 DELETE api/Photo - delete photo (needs auth)
 GET api/Photo - get all of user's photo's (needs auth)
 GET api/Photo/:id - get photo -->
+
+<!-- Database Info:
+
+Tables
+Users
+Blogs
+BlogComments
+Photo
+
+Schemas
+aggregate
+
+Views
+Blog
+BlogComment
+
+Types
+AccountType
+BlogCommentType
+BlogType
+PhotoType
+
+Stored Procedures (Reusable SQL code invoked by API)
+Account_GetByUsername
+Account_Insert
+Blog_Delete
+Blog_Get
+Blog_GetAll
+Blog_GetAllFamous
+Blog_GetByUserId
+Blog_Upsert
+BlogComment_Delete
+BlogComment_GetAll
+Photo_Delete
+Photo_Get
+Photo_GetByUserId
+Photo_Insert -->
