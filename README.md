@@ -11,7 +11,7 @@ GET api/Blog/:id - get the given blog
 GET api/Blog/user/:id - get all blogs by user
 DELETE api/Blog/:id - delete existing blog (needs auth)
 
-Blog Comment EDPS
+Blog Comment EndPoints
 POST api/BlogComment - create new blog comment (needs auth)
 DELETE api/BlogCommemt/:id - delete given blog comment (needs auth)
 GET api/BlogComment/:Blogid - load all blog comments for a blog
