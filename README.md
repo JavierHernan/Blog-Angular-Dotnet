@@ -24,26 +24,26 @@ GET api/Photo/:id - get photo -->
 
 <!-- Database Info:
 
-Tables
+Tables_
 Users
 Blogs
 BlogComments
 Photo
 
-Schemas
+Schemas_
 aggregate
 
-Views
+Views_
 Blog
 BlogComment
 
-Types
+Types_
 AccountType
 BlogCommentType
 BlogType
 PhotoType
 
-Stored Procedures (Reusable SQL code invoked by API)
+Stored Procedures (Reusable SQL code invoked by API)_
 Account_GetByUsername
 Account_Insert
 Blog_Delete
