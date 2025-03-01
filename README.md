@@ -3,7 +3,7 @@
 POST api/Account/register - create new user
 POST api/Account/login - allows existing user login
 
-Blog EDPS
+Blog EndPoints
 POST api/Blog - create new blog (needs auth)
 GET api/Blog - gets all of blogs page by page
 GET api/Blog/famous - get top 6 most talked about blogs
