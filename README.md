@@ -16,7 +16,7 @@ POST api/BlogComment - create new blog comment (needs auth)
 DELETE api/BlogCommemt/:id - delete given blog comment (needs auth)
 GET api/BlogComment/:Blogid - load all blog comments for a blog
 
-Photo EDPS
+Photo EndPoints
 POST api/Photo - upload photo (needs auth)
 DELETE api/Photo - delete photo (needs auth)
 GET api/Photo - get all of user's photo's (needs auth)
