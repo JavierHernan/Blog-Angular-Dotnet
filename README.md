@@ -1,5 +1,5 @@
 # Blog-Angular-Dotnet
-<!-- Account EDPS
+<!-- Account EndPoints
 POST api/Account/register - create new user
 POST api/Account/login - allows existing user login
 
